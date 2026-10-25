@@ -1,0 +1,53 @@
+{
+  "expected_prompt_count": 100,
+  "categories": [
+    {
+      "name": "linear_motion",
+      "range": [1, 20],
+      "better_answer": ["yes", "no", "yes"],
+      "questions": [
+        "Q1: Does the object maintain a consistent speed throughout the video? (yes/no)",
+        "Q2: Does the object's trajectory show any sudden jumps or teleportation? (yes/no)",
+        "Q3: Does the moving object maintain its shape consistently across frames? (yes/no)"
+      ]
+    },
+    {
+      "name": "human_complex_motion",
+      "range": [21, 40],
+      "better_answer": ["yes", "yes", "yes"],
+      "questions": [
+        "Q1: Do the person's limbs maintain natural proportions throughout the movement? (yes/no)",
+        "Q2: Is the motion fluid without any frame where the body appears frozen or distorted? (yes/no)",
+        "Q3: Does the action complete naturally without abrupt interruption? (yes/no)"
+      ]
+    },
+    {
+      "name": "fluid_particle",
+      "range": [41, 60],
+      "better_answer": ["yes", "yes"],
+      "questions": [
+        "Q1: Does the fluid motion appear continuous without sudden appearance or disappearance? (yes/no)",
+        "Q2: Does the fluid maintain physically plausible behavior throughout? (yes/no)"
+      ]
+    },
+    {
+      "name": "camera_motion",
+      "range": [61, 80],
+      "better_answer": ["yes", "yes", "yes"],
+      "questions": [
+        "Q1: Does the background remain geometrically consistent during camera movement? (yes/no)",
+        "Q2: Is the camera motion smooth without sudden jerks? (yes/no)",
+        "Q3: Do objects maintain their 3D structure as the viewpoint changes? (yes/no)"
+      ]
+    },
+    {
+      "name": "fine_physics",
+      "range": [81, 100],
+      "better_answer": ["yes", "yes"],
+      "questions": [
+        "Q1: Does the object maintain its physical properties (shape, texture) throughout? (yes/no)",
+        "Q2: Does the mechanical motion follow a physically plausible trajectory? (yes/no)"
+      ]
+    }
+  ]
+}
