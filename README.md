@@ -17,7 +17,7 @@ conda activate physflow
 pip install https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3/flash_attn-2.8.3+cu12torch2.7cxx11abiTRUE-cp312-cp312-linux_x86_64.whl
 ```
 
-This is the environment used for the paper (Python 3.12, PyTorch 2.7.1 + CUDA 12.6, flash-attn 2.8.3, transformers 4.40.2, diffusers 0.37.0, NVIDIA 1800).
+This is the environment used for the paper (Python 3.12, PyTorch 2.7.1 + CUDA 12.6, flash-attn 2.8.3, transformers 4.40.2, diffusers 0.37.0, NVIDIA A100).
 
 Download the Wan2.1 checkpoint into the repository root:
 
